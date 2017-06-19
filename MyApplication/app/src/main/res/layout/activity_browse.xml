@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Search Query"
+            android:id="@+id/browse_query_input"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/blue_right"
+        android:id="@+id/browse_query_button"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:id="@+id/browse_image_grid">
+    </android.support.v7.widget.RecyclerView>
+=]
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/browse_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="12dp"
+        android:text="Load More"
+        android:onClick="queryTimestamp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/browse_clear_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Clear All"
+        android:onClick="deleteAll">
+
+    </android.support.v7.widget.AppCompatButton>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pixek</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string-array name="security_questions">
+        <item>What was the name of your 5th grade teacher?</item>
+        <item>Where were you when you had your first kiss?</item>
+        <item>Who was your childhood hero?</item>
+        <item>What is the title of your second favorite book?</item>
+        <item>If you had one wish, what would it be?</item>
+    </string-array>
+    <string-array name="security_questions2">
+        <item>What was your top second choice for college?</item>
+        <item>What is the least exciting place you have ever traveled to?</item>
+        <item>Who is your least favorite super hero?</item>
+        <item>What is your least favorite food?</item>
+        <item>Where did you meet your best friend?</item>
+    </string-array>
+</resources>
